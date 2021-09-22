@@ -2,6 +2,9 @@
 
 ### PAT value has been removed
 
+Create GithHub self-hosted runner:
+<https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners>
+
 ## Commands:
 
 Build Image:
