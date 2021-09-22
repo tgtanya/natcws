@@ -5,19 +5,24 @@
 ## Commands:
 
 Build Image:
-  docker build . -t runner
+  
+  `docker build . -t runner`
 
 Verify image created:
-  docker images
+
+  `docker images`
   
 Kubernetes:
-  kubectl create ns gitaction
+
+`kubectl create ns gitaction
   kubectl apply -f ./secret.yaml
-  kubectl apply -f kubernetes.yaml 
+  kubectl apply -f kubernetes.yaml `
   
 Verify:
-  kubectl -n gitaction get deployment
-  kubectl -n gitaction get pods
+
+`kubectl -n gitaction get deployment
+  kubectl -n gitaction get pods`
   
 Scale:
-  kubectl -n gitaction scale deployment runner --replicas=3
+
+  `kubectl -n gitaction scale deployment runner --replicas=3`
